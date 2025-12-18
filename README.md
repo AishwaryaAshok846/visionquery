@@ -28,7 +28,7 @@ VisionQuery is a powerful video search tool enabling you to find specific moment
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/visionquery.git
+git clone https://github.com/AishwaryaAshok846/visionquery.git
 cd visionquery
 ```
 
