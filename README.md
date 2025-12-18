@@ -1,6 +1,6 @@
 # VisionQuery: Semantic Video Search
 
-VisionQuery is a powerful video search tool enabling you to find specific moments in videos using natural language queries. Upload a video, type what you're looking for, and instantly jump to the matching timestamp.
+VisionQuery is a video search tool enabling you to find specific moments in videos using natural language queries. Upload a video, type what you're looking for, and instantly jump to the matching timestamp.
 
 ---
 
