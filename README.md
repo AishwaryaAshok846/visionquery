@@ -7,7 +7,7 @@ VisionQuery is a video search tool enabling you to find specific moments in vide
 ## Features
 
 - **Natural Language Search**: Search for moments using plain English (e.g., "person cycling", "someone drinking coffee").
-- **Multiple Results**: Automatically finds and displays the top 5 matches in the video.
+- **Multiple Results**: Automatically finds and displays relevant matches (filtered by similarity).
 - **Smart Filtering**: Displays results above a 25% similarity threshold to ensure accuracy.
 - **Quick Navigation**: Jump directly to any matched timestamp with a single click.
 - **Multi-Video Support**: Seamlessly switch between uploaded videos without restarting.
@@ -126,11 +126,12 @@ visionquery/
 ├── extract_frames.py      # Extracts frames from the video
 ├── index_frames.py        # Generates embeddings and indexes frames
 ├── requirements.txt       # Dependency list for Python
-├── data/                  # Temporary directory for storing data
+├── README.md              # Documentation
+├── .gitignore             # Git ignore rules
+├── data/                  # Generated at runtime (not in git)
 │   ├── videos/            # Uploaded videos
 │   ├── frames/            # Extracted frames
 │   ├── chroma/            # ChromaDB database files
-│   └── .collection_name   # File to track the current video collection
 ```
 
 ---
